@@ -10,7 +10,7 @@
 }
 
 .login__container {
-    background-color: rgba(255, 255, 255, 0.1); /*Form medio balnco transparente*/
+    background-color: #a2bda2; /*Form medio balnco transparente*/
     border: 2px solid rgba(0, 0, 0, 0.425);
     border-radius: 40px;
     color: rgba(0, 0, 0, 0.699);
