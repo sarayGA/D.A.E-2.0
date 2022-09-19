@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #a2bda2;
+    background-color: beige;
     margin: 0;
     margin-top: 0;
   }
@@ -112,9 +112,7 @@ header nav .btn-comprar {
   
   .form-register .botons {
     width: 100%;
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260);
+    background: #1d530daa;  /* fallback for old browsers */
     border: none;
     padding: 12px;
     color: rgb(2, 2, 2);
