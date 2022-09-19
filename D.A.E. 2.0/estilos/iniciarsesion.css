@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #a2bda2;
+    background-color: beige;
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@ label{
     font-size: 22px;
     font-weight: 600;
 }
+
 #textarea{
     border: 0;
     font-size: 18px;
