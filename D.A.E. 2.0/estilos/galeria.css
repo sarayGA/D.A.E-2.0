@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #a2bda2;;
 }
 header {
     position: fixed;
@@ -51,6 +52,12 @@ header nav ul li a {
     
 }
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .galeria{
     font-family: 'open sans';
 }
@@ -62,7 +69,7 @@ header nav ul li a {
 }
 
 .linea{
-    border-top: 5px solid green;
+    border-top: 5px solid #1fa023;
     margin-bottom: 40px;
 }
 
@@ -92,7 +99,7 @@ header nav ul li a {
     position: absolute;
     bottom: 0;
     left: 0;
-    background:rgba(135, 204, 139, 0.781) ;
+    background:rgba(135, 255, 83, 0.245) ;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -141,107 +148,4 @@ header nav ul li a {
         width: 80%;
     }
 }
-.menu{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: space-around;
 
-}
-
-.lista a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 15px 50px;
-    background-color: rgb(107, 190, 107);
-    border-radius: 100px;
-    
-}
-
-.menu .lista{
-    display: inline-block;
-    margin-left: 9%;
-    
-   
-}
-
-
-  .form-register {
-    width: 400px;
-    background: rgb(255 255 255 / 66%);
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: rgb(0, 0, 0);
-    box-shadow: 7px 13px 37px #000;
-    border-radius: 25px;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    background: transparent;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #000000;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: rgb(7, 2, 2);
-  }
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260);
-    border: none;
-    padding: 12px;
-    color: rgb(2, 2, 2);
-    margin: 16px 0;
-    font-size: 16px;
-    border-radius: 25px;
-  }
-  
-  select{
-    width: 100%;
-    background: transparent;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #000000;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: rgb(7, 2, 2);
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
